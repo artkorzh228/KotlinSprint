@@ -1,7 +1,14 @@
 package org.example.lesson_1
 
 fun main() {
-    for (i in 1..5 step 2) {
-        println(i)
-    }
+    val year: Int = 1961
+    var hour: Int = 9
+    var minute: String = "07"
+    var timeOfTakeoff: Unit = println("$hour:$minute, $year")
+    // println(timeOfTakeoff)
+
+    hour = 10
+    minute = "55"
+    val timeOfLanding = println("$hour:$minute, $year")
+
 }
