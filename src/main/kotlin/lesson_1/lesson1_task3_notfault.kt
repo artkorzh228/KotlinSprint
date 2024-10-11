@@ -1,14 +1,14 @@
 package org.example.lesson_1
 
 fun main() {
-    val year: Int = 1961
-    var hour: Int = 9
+    val year: String = "1961"
+    var hour: String = "09"
     var minute: String = "07"
-    var timeOfTakeoff: String = println("Takeoff time: $hour:$minute, $year").toString()
-    // println(timeOfTakeoff)
+    println("Takeoff time: $hour:$minute, $year").toString()
 
-    hour = 10
+
+    hour = "10"
     minute = "55"
-    val timeOfLanding = println("Landing time: $hour:$minute, $year")
+    println("Landing time: $hour:$minute, $year")
 
 }
