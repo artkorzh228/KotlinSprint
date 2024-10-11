@@ -4,11 +4,11 @@ fun main() {
     val year: Int = 1961
     var hour: Int = 9
     var minute: String = "07"
-    var timeOfTakeoff: Unit = println("$hour:$minute, $year")
+    var timeOfTakeoff: String = println("Takeoff time: $hour:$minute, $year").toString()
     // println(timeOfTakeoff)
 
     hour = 10
     minute = "55"
-    val timeOfLanding = println("$hour:$minute, $year")
+    val timeOfLanding = println("Landing time: $hour:$minute, $year")
 
 }
