@@ -1,5 +1,6 @@
 package org.example.lesson_2
-fun main(){
+
+fun main() {
     val seniorEmployee: Int = 50
     val seniorSalary: Int = 30000
     val juniorEmployee: Int = 30
