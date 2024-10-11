@@ -4,7 +4,7 @@ fun main() {
     var startHour: Int = 9
     var startMinute: Int = 37
 
-    val hour: Int = 60
+    var hour: Int = 60
     var time: Int = 457
     while (time > hour) {
         time -= hour
