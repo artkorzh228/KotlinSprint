@@ -10,8 +10,5 @@ fun main() {
     val arrivalHour: Int = arrivalTime / hour
     val arrivalMinute: Int = arrivalTime % hour
     println("The train will arrive at: $arrivalHour:$arrivalMinute")
-
-
-
 }
 
